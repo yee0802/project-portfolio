@@ -5,8 +5,6 @@ import { DirectionAwareHover } from "./ui/direction-aware-hover";
 import {
   SiAndroidstudio,
   SiCss3,
-  SiGlide,
-  SiHtml5,
   SiJavascript,
   SiMongodb,
   SiPostgresql,
