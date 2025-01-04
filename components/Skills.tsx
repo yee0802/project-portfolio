@@ -3,14 +3,14 @@
 import {
   SiExpress,
   SiGit,
-  SiJavascript,
-  SiMongodb,
   SiNodedotjs,
   SiPostgresql,
   SiReact,
+  SiSpring,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+import { RiJavaLine } from "react-icons/ri";
 import { HoverEffect } from "./ui/card-hover-effect";
 import Title from "./Title";
 
@@ -21,9 +21,14 @@ const skills = [
     link: "https://www.typescriptlang.org/",
   },
   {
-    title: "JavaScript",
-    Icon: SiJavascript,
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    title: "Java",
+    Icon: RiJavaLine,
+    link: "https://dev.java/",
+  },
+  {
+    title: "Spring",
+    Icon: SiSpring,
+    link: "https://spring.io/",
   },
   { title: "React", Icon: SiReact, link: "https://reactjs.org/" },
   {
@@ -32,7 +37,6 @@ const skills = [
     link: "https://tailwindcss.com/",
   },
   { title: "PostgresSQL", Icon: SiPostgresql, link: "https://postgresql.org/" },
-  { title: "MongoDB", Icon: SiMongodb, link: "https://www.mongodb.com/" },
   { title: "Express.js", Icon: SiExpress, link: "https://expressjs.com/" },
   { title: "Node.js", Icon: SiNodedotjs, link: "https://nodejs.org/" },
   { title: "Git", Icon: SiGit, link: "https://git-scm.com/" },
