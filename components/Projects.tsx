@@ -3,7 +3,9 @@ import Title from "./Title";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
 import {
+  SiAndroidstudio,
   SiCss3,
+  SiGlide,
   SiHtml5,
   SiJavascript,
   SiMongodb,
@@ -11,11 +13,13 @@ import {
   SiPrisma,
   SiReact,
   SiReactquery,
+  SiSpring,
   SiStripe,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
 import { BsQuestionLg } from "react-icons/bs";
+import { RiJavaLine } from "react-icons/ri";
 
 const projects = [
   {
@@ -40,10 +44,10 @@ const projects = [
     background: "bg-red-500",
   },
   {
-    title: "Spotify Homepage",
-    tech: [SiHtml5, SiCss3],
-    link: "https://htmlpreview.github.io/?https://github.com/yee0802/html-spotify-challenge/blob/main/index.html",
-    cover: "/Spotify_clone.png",
+    title: "Record Shop",
+    tech: [RiJavaLine, SiSpring, SiAndroidstudio],
+    link: "https://github.com/yee0802/record-shop",
+    cover: "/record_shop_showcase.png",
     background: "bg-indigo-500",
   },
   {
